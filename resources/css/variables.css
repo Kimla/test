@@ -1,0 +1,82 @@
+:root {
+    /*
+    // Colors
+    */
+    --primaryTextColor: #444;
+    --primaryColor: var(--primary500);
+    --lightGrey: #F1F3F6;
+
+    --primary: var(--primary500);
+    --primary900: #2f7920;
+    --primary800: #408c27;
+    --primary700: #55a32e;
+    --primary600: #6bb436;
+    --primary500: #82c440;
+    --primary400: #8ace5a;
+    --primary300: #98d978;
+    --primary200: #a7e193;
+    --primary100: #b8e9af;
+    --primary50: #c4eebe;
+
+    --secondary: #62972c;
+
+    --grey900: #191d27;
+    --grey800: #28303f;
+    --grey700: #414b5d;
+    --grey600: #66758b;
+    --grey500: #96a4b8;
+    --grey400: #c4cfdc;
+    --grey300: #dee5ee;
+    --grey200: #eaf0f6;
+    --grey100: #f6f9fc;
+
+    --borderColor: #e5e7eb;
+
+    /*
+    // Transitions
+    */
+    --cubicBezier: cubic-bezier(0.4, 0, 0.2, 1);
+    --fastTrans: 0.15s var(--cubicBezier);
+    --normalTrans: 0.25s var(--cubicBezier);
+    --slowTrans: 0.35s var(--cubicBezier);
+    --slowerTrans: 0.45s var(--cubicBezier);
+
+    --primaryFont: 'Open Sans', sans-serif;
+    --secondaryFont: 'Open Sans', sans-serif;
+
+    /*
+    // Shadows
+    */
+    --shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    --shadowMedium: 0 4px 8px 0 rgba(0, 0, 0, 0.12),
+        0 2px 4px 0 rgba(0, 0, 0, 0.08);
+    --shadowLarge: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+        0 5px 15px 0 rgba(0, 0, 0, 0.08);
+
+    /*
+    // Radius
+    */
+    --borderRadius: 6px;
+}
+
+/*
+// Media queries
+*/
+
+@custom-media --smallDesktop (max-width: 1700px);
+@custom-media --laptop (max-width: 1450px);
+@custom-media --largeTablet (max-width: 1240px);
+@custom-media --tablet (max-width: 1030px);
+@custom-media --mediumTablet (max-width: 880px);
+@custom-media --smallTablet (max-width: 760px);
+@custom-media --mobile (max-width: 600px);
+@custom-media --smallMobile (max-width: 359px);
+
+@custom-media --aboveSmallDesktop (min-width: 1701px);
+@custom-media --aboveLaptop (min-width: 1451px);
+@custom-media --aboveLargeTablet (min-width: 1241px);
+@custom-media --aboveTablet (min-width: 1031px);
+@custom-media --aboveMediumTablet (min-width: 881px);
+@custom-media --aboveSmallTablet (min-width: 761px);
+@custom-media --aboveMobile (min-width: 601px);
+@custom-media --aboveSmallMobile (min-width: 360px);
