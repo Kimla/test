@@ -5,12 +5,15 @@
 </template>
 
 <script>
+import AppLayout from '@/Layouts/AppLayout';
 import MessageForm from './MessageForm';
 
 export default {
     components: {
         MessageForm
     },
+
+    layout: AppLayout,
 
     methods: {
         createMessage (form) {

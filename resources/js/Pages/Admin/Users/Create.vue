@@ -5,12 +5,15 @@
 </template>
 
 <script>
+import AppLayout from '@/Layouts/AppLayout';
 import UserForm from './UserForm';
 
 export default {
     components: {
         UserForm
     },
+
+    layout: AppLayout,
 
     methods: {
         createUser (form) {

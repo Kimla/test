@@ -44,7 +44,6 @@
 </template>
 
 <script>
-import AppLayout from '@/Layouts/AppLayout';
 import FormBox from '@/Components/Form/FormBox';
 import Editor from '@/Components/Form/Editor';
 import FormGroup from '@/Components/Form/FormGroup';
@@ -59,8 +58,6 @@ export default {
         InputField,
         ImageField
     },
-
-    layout: AppLayout,
 
     props: {
         message: {

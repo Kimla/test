@@ -51,7 +51,6 @@
 </template>
 
 <script>
-import AppLayout from '@/Layouts/AppLayout';
 import FormBox from '@/Components/Form/FormBox';
 import FormGroup from '@/Components/Form/FormGroup';
 import InputField from '@/Components/Form/InputField';
@@ -62,8 +61,6 @@ export default {
         FormGroup,
         InputField
     },
-
-    layout: AppLayout,
 
     props: {
         user: {
